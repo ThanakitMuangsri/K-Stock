@@ -20,6 +20,6 @@ public class ProductService {
         product.setPrice(request.getPrice());
 
         productRepository.save(product);
-        return "Success!!";
+        return "Successss!!";
     }
 }
